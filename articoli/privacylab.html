@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio di Adam Taoufiq</title>
+  <link rel="stylesheet" href="../css/articoli.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="https://img.icons8.com/nolan/64/000000/laptop.png">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+  <a href="#" id="freccia"><img src="../immagini/arrow.png" ></a>
+  <div class="intro" id="privacylab">
+    <div class="banner">
+      <a href="../index.html">Torna in Hompage</a>
+      <p>Privacylab</p>
+      <p id="data">15/01/18 - 16/01/18</p>
+
+    </div>
+
+  </div>
+  <div class="articolo">
+
+    <div class="titolo">
+
+      <p>Obiettivo del progetto</p>
+
+    </div>
+    <div class="testo">
+
+      Roberto Ghindolfi che lavora per PrivacyLab ci spiega di cosa si occupa nel suo lavoro e dell'importanza della sicurezza informatica nelle aziende.Ci spiega inoltre come le diverse policy funzionano ad esempio i cookies e le diverse fasi con le quali si testa la vulnerabilità di un sito.Ci ha inoltre spiegato il ruolo del Data Protection Officer ovvero il responsabile dei dati sensibili di un'azienda e una procedura chiamata Auditing nella quale il data protection officer valuta se un sito è sicuro oppure va migliorato.L'obbiettivo del progetto organizzato da PrivacyLab era di simulare una sessione di Auditing nella quale un gruppo fa da azienda consulente un altro gruppo fa l'azienda che ha bisogno di consulenza.
+    </div>
+    <div class="titolo">
+
+      <p>Sviluppo del progetto</p>
+
+    </div>
+    <div class="testo">
+
+      <div class="testo-sviluppo">
+
+        <span>Il primo giorno</span> Roberto Ghindolfi ha fatto una presentazione per tutta la mattinata del progetto di PrivacyLab e ha spiegato i diversi ambiti di privacy-policy ecc..
+
+      </div>
+      <div class="testo-sviluppo">
+
+        <span>Il secondo giorno</span> dopo che Roberto ci ha spiegato il progetto e ci siamo divisi in gruppi,abbiamo cominciato a preparare la presentazione e a scrivere le nostre policy.Dopo aver finito di scrivere le policy e i nostri termini,abbiamo fatto una prova di Auditing con un gruppo. .
+      </div>
+      <div class="testo-sviluppo">
+
+        <span>Il terzo giorno</span> abbiamo fatto la presentazione dove un gruppo faceva l'azienda e esponeva le proprie policy mentre un altro gruppo faceva l'azienda che aveva bisogno di consulenza.Il rappresentante del nostro gruppo ovvero Alessandro Terzi ha risposto alle diverse domande esposte dall'altro gruppo.
+      </div>
+
+    </div>
+    <div class="titolo">
+
+      <p>Immagini</p>
+
+    </div>
+    <div class="contenitore-immagini" id="immagini">
+
+
+    </div>
+    <div class="titolo">
+
+      <p>Opinione</p>
+
+    </div>
+    <div class="testo">
+
+      Questo progetto se devo essere sincero non mi è piaciuto molto più che mai per l'argomento che ritenevo abbastanza noioso,ma Roberto Ghinolfi era comunque simpatico e quindi sono riuscito a seguire la sua presentazione.
+    </div>
+    <div class="titolo">
+
+      <p>Contenuti scaricabili</p>
+
+    </div>
+    <div class="contenuti-scaricabili">
+    
+        <div class="pulsante">
+        
+            <p>Clicca per scaricare il pdf del progetto</p>
+            <a href="../contenuti/Seminario_Template_OK2.pdf" download>Clicca qui</a>
+        
+        </div>
+        <div class="pulsante">
+        
+            <p>Clicca per scaricare le nostre policy</p>
+            <a href="../contenuti/Policy%20Privacy%20and%20Personal%20Data.docx" download>Clicca qui</a>
+        
+        </div>
+    
+    </div>
+
+</div>
+    <div class="footer">
+      
+      <p>Creato da Adam Taoufiq 2019</p>
+
+    </div>
+  <script>
+    document.getElementById("immagini").style.backgroundImage="url('../immagini/privacy_1.jpg')";
+    var intervallo = setInterval(cambia,5000);
+    var i = 2;
+    function cambia(){
+      document.getElementById("immagini").style.backgroundImage="url('../immagini/privacy_"+i+".jpg')";
+      if(i+1 == 4){
+        i=1;
+      }else{
+        i++;
+      }
+    }
+  </script>
+
+</body>
+
+</html>

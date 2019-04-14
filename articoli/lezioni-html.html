@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio di Adam Taoufiq</title>
+  <link rel="stylesheet" href="../css/articoli.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="https://img.icons8.com/nolan/64/000000/laptop.png">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+  <a href="#" id="freccia"><img src="../immagini/arrow.png" ></a>
+  <div class="intro" id="html">
+    <div class="banner">
+      <a href="../index.html">Torna in Hompage</a>
+      <p>Lezioni Html-Css</p>
+      <p id="data">22/01/18 - 24/01/18</p>
+
+    </div>
+
+  </div>
+  <div class="articolo">
+
+    <div class="titolo">
+
+      <p>Obiettivo del progetto</p>
+
+    </div>
+    <div class="testo">
+
+      Alcuni dipendenti comunali ci hanno fatto vedere alcuni video sul progetto di nonno bit organizzato dalle scuole e dal comune che permette agli anziani di imparare a usare il computer.Il progetto che dovevamo svolgere era quello di creare e organizzare un corso a scelta tra html-css,nonno-bit e scratch da insegnare rispettivamente a ragazzi delle medie,anziani e bambini delle elementari.
+
+    </div>
+    <div class="titolo">
+
+      <p>Sviluppo del progetto</p>
+
+    </div>
+    <div class="testo">
+
+      <div class="testo-sviluppo">
+
+        <span>Il primo giorno</span> abbiamo deciso i gruppi,io ero con Alessandro Terzi,Filippo Fontanesi e Andrea Furghieri. Ci siamo divisi i ruoli e abbiamo cominciato a organizzare il corso e la presentazione.Io e Alessandro Terzi abbiamo pensato al piano formativo indicando le tematiche delle diverse lezioni e al sito con cui gli interessati potevano contattarci.Filippo e Andrea invece stavano sviluppando il powerpoint per la presentazione.
+
+      </div>
+      <div class="testo-sviluppo">
+
+        <span>Il secondo giorno</span> Io e Alessandro Terzi stavamo finendo la creazione del sito web per gli interessati e allo stesso tempo davamo gli ultimi ritocchi alla presentazione del progetto.Avevamo deciso di organizzare il progetto per 9.98 euro ciascun alunno inpiù l'ultimo giorno del corso verrà organizzata una merenda offerta da noi per concludere in grande stile.
+      </div>
+      <div class="testo-sviluppo">
+
+        <span>Il terzo giorno</span> abbiamo presentato il progetto davanti agli altri indicando i nostri punti di forza e gli argomenti delle diverse lezioni,il costo del progetto alla fine è risultato ottimo per competere con gli altri gruppi.
+      </div>
+
+    </div>
+    <div class="titolo">
+
+      <p>Immagini</p>
+
+    </div>
+    <div class="contenitore-immagini" id="immagini">
+
+
+    </div>
+    <div class="titolo">
+
+      <p>Opinione</p>
+
+    </div>
+    <div class="testo">
+
+      Questo progetto è stato divertente dato che ci siamo immedesimati in dei veri e propri professori.Realizzare il sito è stata la parte più bella(dato che mi piace molto creare siti) per il resto ottima esperienza.
+    </div>
+    <div class="titolo">
+
+      <p>Contenuti scaricabili</p>
+
+    </div>
+    <div class="contenuti-scaricabili">
+    
+        <div class="pulsante">
+        
+            <p>Clicca per scaricare il piano formativo</p>
+            <a href="../contenuti/Programma%20formativo%20progetto%20youngMind%202018.docx" download>Clicca qui</a>
+        
+        </div>
+        <div class="pulsante">
+        
+            <p>Clicca per scaricare il powerpoint del progetto</p>
+            <a href="../contenuti/YoungMind.pptx" download>Clicca qui</a>
+        
+        </div>
+    
+    </div>
+
+</div>
+    <div class="footer">
+      
+      <p>Creato da Adam Taoufiq 2019</p>
+
+    </div>
+  <script>
+    document.getElementById("immagini").style.backgroundImage="url('../immagini/html_1.jpg')";
+    var intervallo = setInterval(cambia,5000);
+    var i = 2;
+    function cambia(){
+      document.getElementById("immagini").style.backgroundImage="url('../immagini/html_"+i+".jpg')";
+      if(i+1 == 5){
+        i=1;
+      }else{
+        i++;
+      }
+    }
+  </script>
+
+</body>
+
+</html>

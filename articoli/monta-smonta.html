@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio di Adam Taoufiq</title>
+  <link rel="stylesheet" href="../css/articoli.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="https://img.icons8.com/nolan/64/000000/laptop.png">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+  <a href="#" id="freccia"><img src="../immagini/arrow.png" ></a>
+  <div class="intro" id="monta-smonta">
+    <div class="banner">
+      <a href="../index.html">Torna in Hompage</a>
+      <p>Monta-smonta</p>
+      <p id="data">07/05/18</p>
+
+    </div>
+
+  </div>
+  <div class="articolo">
+
+    <div class="titolo">
+
+      <p>Obiettivo del progetto</p>
+
+    </div>
+    <div class="testo">
+
+      L'obbiettivo dell'attività monta-smonta era quello di imparare a smontare i componenti di un computer per poi riuscire a rimontarlo correttamente in modo che funzionasse come prima.
+
+    </div>
+    <div class="titolo">
+
+      <p>Sviluppo del progetto</p>
+
+    </div>
+    <div class="testo">
+
+      <div class="testo-sviluppo">
+
+        <span>Il 7 maggio 2018</span> i nostri prof ci fanno una lezione di più o meno 2 ore su come smontare corettamente un computer per poi rimontarlo.Nella lezione i prof ci hanno spiegato da quali componenti partire e come smontarli in modo giusto in modo da non rovinarli,ci hanno spiegato alcune misure di sicurezza che dobbiamo tenere a mente mentre lavoriamo.
+        Dopo la lezione ci siamo divisi in gruppi,io ero nel gruppo con Alvin Gallon e i prof ci hanno consegnato un computer fisso da smontare.Io e Alvin cominciamo a lavorare svitando viti e quant'altro metndo tutti i componenti in fila e in ordine in modo da non avere difficoltà durante la rimontazione del computer.
+        Una volta svuotato il case e fatte le opportune foto durante il procedimento,cominciamo a rimontare il computer da 0.Grazie alle foto e all'ordine con il quale avevamo deposto le viti e i componenti ci abbiamo messo relativamente poco a rimontare il tutto.Dopo aver collegato il nostro computer rimontato al monitor vediamo che si accende e funziona correttamente.Io e Alvin eravamo il secondo gruppo a finire il lavoro.
+
+      </div>
+
+    </div>
+    <div class="titolo">
+
+      <p>Immagini</p>
+
+    </div>
+    <div class="contenitore-immagini" id="immagini">
+
+
+    </div>
+    <div class="titolo">
+
+      <p>Opinione</p>
+
+    </div>
+    <div class="testo">
+
+      Questo progetto è stato molto divertente e istruttivo,siccome non avevo mai smontato un computer prima ho imparato molto ed anche sviluppato più confidenza riguardo la manutenzione di computer.
+    </div>
+
+</div>
+    <div class="footer">
+      
+      <p>Creato da Adam Taoufiq 2019</p>
+
+    </div>
+  <script>
+    document.getElementById("immagini").style.backgroundImage="url('../immagini/monta-smonta/monta_1.jpg')";
+    var intervallo = setInterval(cambia,5000);
+    var i = 2;
+    function cambia(){
+      document.getElementById("immagini").style.backgroundImage="url('../immagini/monta-smonta/monta_"+i+".jpg')";
+      if(i+1 == 6){
+        i=1;
+      }else{
+        i++;
+      }
+    }
+  </script>
+
+</body>
+
+</html>

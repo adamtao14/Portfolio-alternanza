@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%;
+}
+
+header{
+    height: auto;
+    overflow-x: hidden;
+}
+#freccia img{
+  position: fixed;
+  z-index: +1;
+  right:10px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px; 
+}
+
+ul {
+  list-style: none;
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: 'Dosis', sans-serif;
+}
+p a{
+  text-decoration: none;
+
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+    color: black;
+    border-bottom: 1px solid white;
+}
+
+
+ul a {
+  display: block;
+  padding-top: 15px;
+  padding-right: 0 !important;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+nav li {
+  float: left;
+  width: 25%;
+  transition: color 0.3s;
+}
+nav li a:hover{
+  transition: color 0.3s ease;
+  color: orange;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+.nome-e-foto{
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  height: 390px;
+  margin-bottom: 20px;
+}
+.no-resp{
+  float:left;
+}
+.nome{
+  width: 500px;
+  font-family: 'Oswald', sans-serif;
+  height: 350px;
+  overflow: hidden;
+}
+.nome-container{
+  height: 390px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nome-text{
+  font-size: 111px;
+}
+#nome{
+  float: left;
+  margin-left: 10px;
+}
+#cognome{
+  float: right;
+  margin-right: 20px;
+  margin-top: -60px;
+}
+.nome-descrizione{
+  color: #8A8484;
+  float: left;
+  margin-left: 10px;
+  font-size: 24px;
+}
+.foto{
+  width: 400px;
+  height: 400px;
+}
+.foto-container{
+  height: 330px;
+  width: 330px;
+  border-radius: 50%;
+  float:left;
+  margin-left: 60px;
+  background-image: url("../immagini/adam.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: -50px;
+}
+.comincia-button{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+#comincia{
+  height: 50px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  padding-top: 4px;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-family: 54px;
+  color:black;
+}
+#comincia a {
+  color: white;
+}
+#comincia:hover{
+  background-color: orange;
+}
+.articoli{
+  width: 90%;
+  height: auto;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+.anno{
+  font-family: 'Oswald', sans-serif;
+  font-size: 34px;
+  margin-left: 2px;
+  color:black;
+}
+.disposizione-fila-no-resp{
+  width: 100%;
+  margin-top: 100px;
+}
+#riduci-margine{
+  margin-top: 30px;
+}
+.articolo{
+  height: 220px;
+  width: 30%;
+  margin-right: 2%;
+  border:1px solid black;
+  display: inline-block;
+  position: relative;
+  background-size:cover;
+  background-repeat: no-repeat;
+  transition: all 0.7s ease;
+}
+.articolo-lungo{
+  height: 220px;
+  width: 62.5%;
+  margin-right: 2%;
+  border:1px solid black;
+  display: inline-block;
+  position: relative;
+  background-size:cover;
+  background-repeat: no-repeat;
+  transition: all 0.7s ease;
+}
+.banner{
+  width: 100%;
+  height: 70px;
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.banner p a:hover{
+  color: orange;
+}
+.articolo:hover{
+  transform: scale(1.1);
+  z-index: 1;
+}
+.articolo-lungo:hover{
+  transform: scale(1.1);
+  z-index: 1;
+}
+.titolo{
+  text-align: center;
+  color: white;
+  font-size: 34px;
+  padding-top: 5px;
+  font-family: 'Oswald', sans-serif;
+}
+.titolo a {
+  color: white;
+}
+#arduino{
+  background-image: url("../immagini/arduino-background.jpg");
+}
+#blulink{
+  background-image: url("../immagini/json-background.jpg");
+}
+#privacylab{
+  background-image: url("../immagini/privacy-background.jpg");
+}
+#monta-smonta{
+  background-image: url("../immagini/computer-repair.jpg");
+}
+#html{
+  background-image: url("../immagini/html-background.jpg");
+}
+#irlanda{
+  background-image: url("../immagini/dublin-background.jpg");
+  background-position: -0px;
+}
+#startup{
+  background-image: url("../immagini/startup-background.jpg");
+  background-position: -0px;
+}
+.chisono{
+  width: 50%;
+  border:1px solid black;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+}
+.testo-chisono{
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  text-align: justify;
+  font-family: 'Oswald' , sans-serif;
+  font-size: 20px;
+}
+.foto-chisono-container{
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  margin-top: 10px;
+  height: 300px;
+  border:1px solid black;
+  background-image: url("../immagini/chi_sono.jpg");
+  background-size:cover;
+  background-position: 1px
+  background-repeat: no-repeat;
+}
+#telefono{
+  background-image: url("../immagini/telefono.jpg");
+}
+#email{
+  background-image: url("../immagini/gmail.png");
+}
+#instagram{
+  background-image: url("../immagini/instagram.png");
+  background-position: 0px;
+}
+.banner-2{
+    width: 100%;
+    height: 70px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+}
+.footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+  background-color: black;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  text-align: center;
+}
+@media only screen and (max-width:950px) {
+  .nome-e-foto{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    height: 300px;
+  }
+  .nome{
+    width: 400px;
+    font-family: 'Oswald', sans-serif;
+    height: 400px;
+    overflow: hidden;
+  }
+  .nome-container{
+    height: 390px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ .nome-text{
+    font-size: 91px;
+  }
+  #nome{
+    float: left;
+    margin-left: 10px;
+  }
+  #cognome{
+    float: right;
+    margin-right: 100px;
+    margin-top: -50px;
+  }
+  .nome-descrizione{
+    color: #8A8484;
+    float: left;
+    margin-left: 10px;
+    font-size: 24px;
+  }
+  .foto{
+    width: 250px;
+    height: 400px;
+  }
+  .foto-container{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    float:left;
+    margin-left: 40px;
+    background-image: url("../immagini/adam.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: -50px;
+  }
+  .comincia-button{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #comincia{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    margin-top:95px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+  }
+  .chisono{
+  width: 70%;
+  border:1px solid black;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+}
+}
+@media only screen and (max-width: 675px) {
+  .nome-resp{
+    width: 500px;
+    font-family: 'Oswald', sans-serif;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    overflow: hidden;
+  }
+  .nome-container-resp{
+    height: 390px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .foto-resp{
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .foto-container-resp{
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    margin-left:auto;
+    margin-right: auto;
+    background-image: url("../immagini/adam.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: -50px;
+  }
+  .comincia-button{
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 151px;
+  }
+  #comincia{
+    padding-top:10px;
+    height: 50px;
+    font-size: 25px;
+    margin-top:40px;
+  }
+  .articolo{
+    height: 280px;
+    width: 100%;
+    margin-bottom: 20px;
+    border:1px solid black;
+    position: relative;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  #riduci-margine{
+    margin-top: 0px;
+  }
+  .articolo-lungo{
+    height: 280px;
+    width: 100%;
+    margin-bottom: 20px;
+    border:1px solid black;
+    display: inline-block;
+    position: relative;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  .banner{
+    width: 100%;
+    height: 70px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+
+  }
+  .titolo{
+    text-align: center;
+    color: white;
+    font-size: 34px;
+    padding-top: 5px;
+    font-family: 'Oswald', sans-serif;
+  }
+  .chisono{
+  width: 80%;
+  border:1px solid black;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+}
+  .foto-chisono-container{
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  margin-top: 10px;
+  height: 200px;
+  border:1px solid black;
+  background-image: url("../immagini/chi_sono.jpg");
+  background-size:cover;
+  background-position: 1px
+  background-repeat: no-repeat;
+}
+
+}
+@media only screen and (max-width: 480px) {
+
+  .hamburger {
+    padding: 15px;
+    display: block;
+    color: black;
+  }
+
+  .line {
+    border-bottom: 4px solid black;
+    width: 35px;
+    margin-bottom: 6px;
+  }
+
+  .line:last-child {
+    margin-bottom: 0;
+  }
+
+  nav li {
+    width: 100%;
+    margin-bottom: 10px;
+    color:black;
+  }
+
+  .menu {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s linear;
+  }
+
+  .slide-down {
+    height: 182px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .nome-text{
+    font-size: 90px;
+  }
+  .nome-resp{
+    width: 400px;
+    font-family: 'Oswald', sans-serif;
+    height: 300px;
+    margin-top: 100px;
+    overflow: hidden;
+  }
+  .nome-container-resp{
+    height: 390px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #nome{
+    float: left;
+    margin-left: 10px;
+  }
+  #cognome{
+    float: right;
+    margin-top: -40px;
+  }
+  .comincia-button{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #comincia{
+    padding-top:2px;
+  }
+
+}
+@media only screen and (max-width: 370px) {
+  .foto-resp{
+    width: 260px;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+  .foto-container-resp{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left:auto;
+    margin-right: auto;
+    background-image: url("../immagini/adam.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: -50px;
+  }
+  .nome-descrizione{
+    font-size: 20px;
+  }
+
+}

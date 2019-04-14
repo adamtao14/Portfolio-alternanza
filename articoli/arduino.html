@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio di Adam Taoufiq</title>
+  <link rel="stylesheet" href="../css/articoli.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="https://img.icons8.com/nolan/64/000000/laptop.png">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+  <a href="#" id="freccia"><img src="../immagini/arrow.png" ></a>
+  <div class="intro" id="arduino">
+    <div class="banner">
+      <a href="../index.html">Torna in Hompage</a>
+      <p>Progetto Arduino</p>
+      <p id="data">09/01/18 - 11/01/18</p>
+
+    </div>
+
+  </div>
+  <div class="articolo">
+
+    <div class="titolo">
+
+      <p>Obiettivo del progetto</p>
+
+    </div>
+    <div class="testo">
+
+      Il prof Carpanoni ci presenta il progetto Ziemenz,ovvero un progetto dove diverse startup (i diversi gruppi) devono competere
+      fra di loro cercando di progettare uno strumento che permetta di misurare la temperatura,livello di luce,livello d'acqua
+      ecc.. del terreno di una pianta,cercando di minimizzare i costi in modo da competere con gli altri.
+
+    </div>
+    <div class="titolo">
+
+      <p>Sviluppo del progetto</p>
+
+    </div>
+    <div class="testo">
+
+      <div class="testo-sviluppo">
+
+        <span>Il primo giorno</span> dopo che il prof Carpanoni ci ha spiegato il progetto,abbiamo scelto i gruppi,io mi ero messo
+        in gruppo con Delia Cavalca e Filippo Fontanesi,il nostro gruppo si chiamava TechnoData.Per il resto della mattinata
+        ci siamo divisi i compiti e abbiamo cominciato a pensare al progetto.La prima cosa è stata pensare a un nome per
+        la nostra startup e poi avere un'idea di come dovesse essere il prodotto finale,inoltre dovevamo pensare anche a
+        una presentazione che spiegasse al meglio il nostro progetto.
+
+      </div>
+      <div class="testo-sviluppo">
+
+        <span>Il secondo giorno</span> ho cominciato a lavorare al circuito dello strumento e al codice di arduino mentre Delia
+        e Filippo si occupavano della presentazione su powerpoint e del design dello strumento.Creare il circuito è stata
+        la parte più difficile essendo alle prime armi e anche l'unico a lavorare sullo strumento,però dopo aver consultato
+        alcune guide online sono riuscito a risolvere alcuni problemi.Per la presentazione io e il mio gruppo ci siamo riuniti
+        per 1 ora in modo da decidere quali componenti includere nei costi e decidere anche il prezzo finale dell'eventuale
+        prodotto indicando tutti i costi,eventuali guadagni e ricavi ecc.
+      </div>
+      <div class="testo-sviluppo">
+
+        <span>Il terzo giorno</span> dopo alcuni problemi con il circuito sono riuscito a completarlo,Delia e Filippo davano gli
+        ultimi ritocchi al powerpoint prima della consegna alle 9:30 io intanto testavo lo strumento in tutti i modi per
+        essere sicuro del suo funzionamento.Infine abbiamo presentato il progetto davanti agli altri mostrando lo strumento
+        finito e funzionante.
+      </div>
+
+    </div>
+    <div class="titolo">
+
+      <p>Immagini</p>
+
+    </div>
+    <div class="contenitore-immagini" id="immagini">
+
+
+    </div>
+    <div class="titolo">
+
+      <p>Video</p>
+
+    </div>
+    <div class="contenitore-video">
+      <video  controls muted>
+        <source src="../immagini/arduino-video.mp4" type="video/mp4">
+        <source src="../immagini/arduino-video.ogg" type="video/ogg">
+        Il tuo browser non supporta HTML5.
+      </video>
+    </div>
+    <div class="titolo">
+
+      <p>Opinione</p>
+
+    </div>
+    <div class="testo">
+
+      Questo progetto è stato abbastanza impegnativo dato che non avevo mai usato Arduino prima di allora ma allo stesso tempo mi ha permesso di cercare di pensare a una soluzione anche a una cosa mai fatta prima.Tuttavia questo è stato un ottimo progetto
+    </div>
+    <div class="titolo">
+
+      <p>Contenuti scaricabili</p>
+
+    </div>
+    <div class="contenuti-scaricabili">
+    
+        <div class="pulsante">
+        
+            <p>Clicca per scaricare il powerpoint del progetto</p>
+            <a href="../contenuti/DATA-PLANT-final%20(1).pptx" download>Clicca qui</a>
+        
+        </div>
+    
+    </div>
+
+</div>
+    <div class="footer">
+      
+      <p>Creato da Adam Taoufiq 2019</p>
+
+    </div>
+  <script>
+    var intervallo = setInterval(cambia,5000);
+    var i = 2;
+    function cambia(){
+      document.getElementById("immagini").style.backgroundImage="url('../immagini/IMG_"+i+".jpg')";
+      if(i+1 == 8){
+        i=2;
+      }else{
+        i++;
+      }
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%;
+}
+#freccia img{
+  position: fixed;
+  z-index: +1;
+  right:10px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px; 
+}
+.intro{
+  width: 100%;
+  height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#arduino{
+  background-image: url('../immagini/arduino-background.jpg');
+}
+#blulink{
+  background-image: url('../immagini/json-background.jpg');
+}
+#startup{
+  background-image: url('../immagini/startup-background.jpg');
+}
+#monta-smonta{
+  background-image: url('../immagini/computer-repair.jpg');
+}
+#html{
+  background-image: url('../immagini/html-background.jpg');
+}
+#privacylab{
+  background-image: url('../immagini/privacy-background.jpg');
+}
+.banner{
+  width: 100%;
+  height: 100%;
+  position:relative;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+.banner p{
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  color:white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 94px;
+}
+.banner a{
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  color:white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+}
+.banner a:hover{
+  color:orange;
+}
+
+#data{
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+  color:orange;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+}
+.articolo{
+  margin-top: 160px;
+  width: 70%;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-bottom: 20px;
+  position: relative;
+  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  background: white;
+}
+.titolo{
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  background-color: black;
+  padding: 10px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, .5);
+}
+.testo{
+
+  font-size: 20px;
+  width: 70%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  font-family: sans-serif;
+
+}
+.testo-sviluppo{
+
+  font-size: 20px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  font-family:  sans-serif;
+
+}
+.testo-sviluppo span{
+  color: orange;
+}
+.contenitore-immagini{
+  width: 90%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-image: url("../immagini/IMG_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenitore-video{
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+video{
+  width: 100%    !important;
+  height: auto   !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contenuti-scaricabili{
+    width: 100%;
+    padding: 20px;
+}
+.pulsante{
+    height: auto;
+    max-width: 500px;
+    margin: auto;
+    padding-bottom: 30px;
+    text-align: center;
+    border:2px dashed black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pulsante p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.pulsante a {
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    background-color: green;
+    text-decoration: none;
+}
+.pulsante a:hover{
+    background-color: green;
+    border: none;
+    color: white;
+}
+.footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+  background-color: black;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width: 780px) {
+  .intro{
+    width: 100%;
+    height: 350px;
+    background-image: url('../immagini/arduino-background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .articolo{
+    margin-top: 160px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-bottom: 40px;
+    position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    background: white;
+  }
+  .banner p{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 54px;
+  }
+
+.testo{
+  font-size: 25px;
+  width: 95%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  font-family: sans-serif;
+}
+.testo-sviluppo{
+  font-size: 25px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  font-family:  sans-serif;
+}
+}
+
+@media only screen and (max-width: 580px) {
+  .intro{
+    width: 100%;
+    height: 350px;
+    background-image: url('../immagini/arduino-background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .articolo{
+    margin-top: 160px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-bottom: 40px;
+    position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    background: white;
+  }
+  .banner p{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 54px;
+  }
+
+.testo{
+  font-size: 15px;
+  width: 95%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  font-family: sans-serif;
+}
+.testo-sviluppo{
+  font-size: 15px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  font-family:  sans-serif;
+}
+}

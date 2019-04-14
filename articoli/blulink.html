@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio di Adam Taoufiq</title>
+  <link rel="stylesheet" href="../css/articoli.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="https://img.icons8.com/nolan/64/000000/laptop.png">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+  <a href="#" id="freccia"><img src="../immagini/arrow.png" ></a>
+  <div class="intro" id="blulink">
+    <div class="banner">
+      <a href="../index.html">Torna in Hompage</a>
+      <p>Blulink</p>
+      <p id="data">17/01/18 - 19/01/18</p>
+
+    </div>
+
+  </div>
+  <div class="articolo">
+
+    <div class="titolo">
+
+      <p>Obiettivo del progetto</p>
+
+    </div>
+    <div class="testo">
+
+      I membri di Blulink dopo una breve spiegazione di cosa si occupavano ci hanno spiegato dell'importanza del lato server-database che fa da fattore importante al giorno d'oggi.Ci hanno spiegato cos'è un protocollo di rete e le differenze tra i diversi protocolli.Infine ci hanno spiegato il progetto che dovevamo completare che consisteva nel creare un programma in C# che permetta all'utente di interagire con un database.
+
+    </div>
+    <div class="titolo">
+
+      <p>Sviluppo del progetto</p>
+
+    </div>
+    <div class="testo">
+
+      <div class="testo-sviluppo">
+
+        <span>Il primo giorno</span> il team di Blulink che ci ha fatto una presentazione su quello in cui la loro azienda era specializzata e anche di quanto questo settore fosse uno dei più promittenti per il futuro.Ci hanno introdotto il progetto di cui dovevamo occuparci ovvero crare un programma in C# che permettesse di comunicare con un database nei seguenti modi: poter aggiungere,eliminare e modificare un elemento.Il team ci ha divisi in gruppi ed io ero con Roffia e Zannini.Ci siamo subito messi al lavoro cercando di ambientarci in questo nuovo linguaggio di programmazione.
+
+      </div>
+      <div class="testo-sviluppo">
+
+        <span>Il secondo giorno</span> Il secondo giorno dopo aver fatto alcune ricerche online siamo riusciti a comunicare con il database tramite il nostro programma.La prima cosa che siamo riusciti a fare è visualizzare il contenuto del database e questo era già un grande risultato dato che non avevamo mai fatto niente del genere.Abbiamo continuato con le altre richieste ovvero caricare,eliminare oppure modificare un elemento. .
+        prodotto indicando tutti i costi,eventuali guadagni e ricavi ecc.
+      </div>
+      <div class="testo-sviluppo">
+
+        <span>Il terzo giorno</span> Il terzo giorno abbiamo ultimato il programma testandolo molte volte e confermando che funzionava, purtroppo non siamo riusciti a presentarlo dato che il team di Blulink non c'era.Questa attività è stata la mia preferita dato che abbiamo potuto testare le nostre abilità e adattarci a una situazione del tutto nuova.
+
+      </div>
+
+    </div>
+    <div class="titolo">
+
+      <p>Immagini</p>
+
+    </div>
+    <div class="contenitore-immagini" id="immagini">
+
+
+    </div>
+    <div class="titolo">
+
+      <p>Opinione</p>
+
+    </div>
+    <div class="testo">
+
+      Questo progetto è stato il mio preferito,programmare in un nuovo linguaggio è stata una cosa nuova per me,ma allo stesso tempo la parte più divertente è stata cercare soluzioni e basarsi anche sulle conoscenze che già sapevo.Purtroppo non abbiamo potuto presentare il programma finito dato che facevo parte di uno dei due gruppi che erano riusciti a finirlo.
+    </div>
+    <div class="titolo">
+
+      <p>Contenuti scaricabili</p>
+
+    </div>
+    <div class="contenuti-scaricabili">
+    
+        <div class="pulsante">
+        
+            <p>Clicca per scaricare i file del progetto</p>
+            <a href="../contenuti/progetto-json-editor/" download>Clicca qui</a>
+        
+        </div>
+        <div class="pulsante">
+        
+            <p>Clicca per scaricare il pdf del progetto</p>
+            <a href="../contenuti/Blulink-IISPascal-AlternanzaScuolaLavoro.pdf" download>Clicca qui</a>
+        
+        </div>
+    
+    </div>
+
+</div>
+    <div class="footer">
+      
+      <p>Creato da Adam Taoufiq 2019</p>
+
+    </div>
+  <script>
+    document.getElementById("immagini").style.backgroundImage="url('../immagini/blulink_1.jpg')";
+    var intervallo = setInterval(cambia,5000);
+    var i = 2;
+    function cambia(){
+      document.getElementById("immagini").style.backgroundImage="url('../immagini/blulink_"+i+".jpg')";
+      if(i+1 == 3){
+        i=1;
+      }else{
+        i++;
+      }
+    }
+  </script>
+
+</body>
+
+</html>
