@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio di Adam Taoufiq</title>
+  <link rel="stylesheet" href="../css/articoli.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="https://img.icons8.com/nolan/64/000000/laptop.png">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+  <a href="#" id="freccia"><img src="../immagini/arrow.png" ></a>
+  <div class="intro" id="irlanda">
+    <div class="banner">
+      <a href="../index.html">Torna in Hompage</a>
+      <p>Alternanza Irlanda</p>
+      <p id="data">03/06/18 - 30/06/18</p>
+
+    </div>
+
+  </div>
+  <div class="articolo">
+
+    <div class="titolo">
+
+      <p>Obiettivo del progetto</p>
+
+    </div>
+    <div class="testo">
+
+      La scuola ha organizzato un bando per un alternanza scuola-lavoro in Irlanda per il periodo di un mese.
+      in questo periodo avremmo fatto alternanza in alcune aziende del settore informatico.
+
+    </div>
+    <div class="titolo">
+
+      <p>Sviluppo del progetto</p>
+
+    </div>
+    <div class="testo">
+
+      <div class="testo-sviluppo">
+
+        Dopo aver partecipato al bando inziato dalla nostra scuola,sono riuscito a vincere un posto nel progetto di alternanza scuola-lavoro in Irlanda, i requisiti erano voti medio-alti ed una certificazione in inglese di almeno livello B1.
+
+      </div>
+      <div class="testo-sviluppo">
+
+        Il 3 giugno 2018 siamo partiti alla volta di Dublino capitale dell'Irlanda dove siamo stati accolti da una famiglia.Con me c'era Alessandro Terzi ed eravamo in una camera insieme.
+        I primi giorno ci siamo un po abituati ai ritmi di vita degli Irlandesi,a socializzare con loro ed anche orientarci un po nel posto.
+        Il team di EazyCity che si è occupato della nostra permanenza a Dublino ci ha spiegato come sarebbero state strutturate le 4 settimane di alternanza e inoltre ci hanno informato delle molte attività che avremmo fatto.
+      </div>
+      <div class="testo-sviluppo">
+
+        Le prime due settimane non siamo andati in azienda come ci avevano promesso,invece siamo andati in un uffico dell'agenzia Travelling languages nel quale abbiamo incontrato Salvatore detto Sean.
+        Con Salvatore abbiamo parlato di teamworking e di cosa è importante fare e spaere per lavorare o gestire un azienda.
+        Insieme a Salvatore abbiamo deciso di creare un progetto assieme a tutti i membri del gruppo,il progetto consisteva nel creare una piattaforma di corsi online nel quali utenti possono comprare corsi di vario tipo.
+        Il progetto ci tiene impegnati per due settimane e alla fine il sito era bene o male completo.
+      </div>
+      <div class="testo-sviluppo">
+
+        Le ultime due settimane invece abbiamo lavorato nell'ufficio di EazyCity dove i gruppi si sono divisi,quelli dell'informatico hanno continuato a lavorare al progetto precedente quello della piattaforma dei corsi online,quelli di relazioni internazionali hanno lavorato con l'azienda a non so cosa di preciso.
+      </div>
+      <div class="testo-sviluppo">
+
+       Durante la nostra permanenza a Dublino abbiamo avuto modo di visitare la città e di fare tante attività sia individuali sia in gruppo.
+       Abbiamo visitato i centri di Google e Facebook,il mueso di arte moderna,il museo di storia,la fabbrica della Guinness,il centro di cooworking di Dublino ecc..
+      </div>
+
+    </div>
+    <div class="titolo">
+
+      <p>Immagini</p>
+
+    </div>
+    <div class="contenitore-immagini" id="immagini">
+
+
+    </div>
+    
+    <div class="titolo">
+
+      <p>Opinione</p>
+
+    </div>
+    <div class="testo">
+
+      Questa esperienza è stata molto istruttiva ad anche molto bella siccome non ero mai stato in Irlanda,ho imparato molte cose e soprtatutto ho potuto mettere alla prova le mie capacità in inglese una lingua che mi piace molto.
+    </div>
+
+</div>
+    <div class="footer">
+
+      <p>Creato da Adam Taoufiq 2019</p>
+
+    </div>
+  <script>
+    document.getElementById("immagini").style.backgroundImage="url('../immagini/dublino_1.jpg')";
+    var intervallo = setInterval(cambia,5000);
+    var i = 2;
+    function cambia(){
+      document.getElementById("immagini").style.backgroundImage="url('../immagini/dublino_"+i+".jpg')";
+      if(i+1 == 12){
+        i=1;
+      }else{
+        i++;
+      }
+    }
+  </script>
+
+</body>
+
+</html>
