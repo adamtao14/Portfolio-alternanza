@@ -25,7 +25,7 @@ html, body {
   right:10px;
   bottom: 20px;
   width: 40px;
-  height: 40px; 
+  height: 40px;
 }
 .intro{
   width: 100%;
@@ -37,25 +37,31 @@ html, body {
   position: relative;
 }
 #arduino{
-  background-image: url('../immagini/arduino-background.jpg');
+  background-image: url('../immagini/arduino_background.jpg');
 }
 #blulink{
-  background-image: url('../immagini/json-background.jpg');
+  background-image: url('../immagini/json_background.jpg');
 }
 #startup{
-  background-image: url('../immagini/startup-background.jpg');
+  background-image: url('../immagini/startup_background.jpg');
 }
 #monta-smonta{
-  background-image: url('../immagini/computer-repair.jpg');
+  background-image: url('../immagini/computer_repair.jpg');
 }
 #html{
-  background-image: url('../immagini/html-background.jpg');
+  background-image: url('../immagini/html_background.jpg');
 }
 #privacylab{
-  background-image: url('../immagini/privacy-background.jpg');
+  background-image: url('../immagini/privacy_background.jpg');
 }
 #irlanda{
-  background-image: url('../immagini/dublin-background.jpg');
+  background-image: url('../immagini/dublin_background.jpg');
+}
+#netribe{
+  background-image: url("../immagini/netribe_background.jpg")
+}
+#scuola-di-polo{
+  background-image: url("../immagini/scuola-di-polo.jpg")
 }
 .banner{
   width: 100%;
@@ -63,7 +69,7 @@ html, body {
   position:relative;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.4);
   cursor: pointer;
 }
 .banner p{
@@ -201,11 +207,11 @@ video{
     color: white;
     padding: 10px;
     font-family: 'Oswald', sans-serif;
-    background-color: green;
+    background-color: black;
     text-decoration: none;
 }
 .pulsante a:hover{
-    background-color: green;
+    background-color: orange;
     border: none;
     color: white;
 }
@@ -226,7 +232,7 @@ video{
   .intro{
     width: 100%;
     height: 350px;
-    background-image: url('../immagini/arduino-background.jpg');
+    background-image: url('../immagini/arduino_background.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -284,7 +290,7 @@ video{
   .intro{
     width: 100%;
     height: 350px;
-    background-image: url('../immagini/arduino-background.jpg');
+    background-image: url('../immagini/arduino_background.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

@@ -21,7 +21,7 @@ html, body {
 }
 
 header{
-    height: auto;
+    height: 100vh;
     overflow-x: hidden;
 }
 #freccia img{
@@ -30,7 +30,7 @@ header{
   right:10px;
   bottom: 20px;
   width: 40px;
-  height: 40px; 
+  height: 40px;
 }
 
 ul {
@@ -82,7 +82,7 @@ nav li:last-child {
   width: 950px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 90px;
+  margin-top: 130px;
   height: 390px;
   margin-bottom: 20px;
 }
@@ -145,11 +145,11 @@ nav li:last-child {
   width: 150px;
   background-color: black;
   color: white;
-  padding-top: 4px;
   font-size: 24px;
   text-align: center;
   font-family: 'Oswald', sans-serif;
   font-family: 54px;
+  padding-top: 5px;
   color:black;
 }
 #comincia a {
@@ -162,6 +162,7 @@ nav li:last-child {
   width: 90%;
   height: auto;
   margin-top: 50px;
+  margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 20px;
@@ -189,8 +190,9 @@ nav li:last-child {
   background-size:cover;
   background-repeat: no-repeat;
   transition: all 0.7s ease;
+  
 }
-.articolo-lungo{
+.articolo-lungo-2x{
   height: 220px;
   width: 62.5%;
   margin-right: 2%;
@@ -217,7 +219,7 @@ nav li:last-child {
   transform: scale(1.1);
   z-index: 1;
 }
-.articolo-lungo:hover{
+.articolo-lungo-2x:hover{
   transform: scale(1.1);
   z-index: 1;
 }
@@ -232,27 +234,33 @@ nav li:last-child {
   color: white;
 }
 #arduino{
-  background-image: url("../immagini/arduino-background.jpg");
+  background-image: url("../immagini/arduino_background.jpg");
 }
 #blulink{
-  background-image: url("../immagini/json-background.jpg");
+  background-image: url("../immagini/json_background.jpg");
 }
 #privacylab{
-  background-image: url("../immagini/privacy-background.jpg");
+  background-image: url("../immagini/privacy_background.jpg");
 }
 #monta-smonta{
-  background-image: url("../immagini/computer-repair.jpg");
+  background-image: url("../immagini/computer_repair.jpg");
 }
 #html{
-  background-image: url("../immagini/html-background.jpg");
+  background-image: url("../immagini/html_background.jpg");
 }
 #irlanda{
-  background-image: url("../immagini/dublin-background.jpg");
+  background-image: url("../immagini/dublin_background.jpg");
   background-position: -0px;
 }
+#netribe{
+  background-image: url("../immagini/netribe_background.jpg")
+}
 #startup{
-  background-image: url("../immagini/startup-background.jpg");
+  background-image: url("../immagini/startup_background.jpg");
   background-position: -0px;
+}
+#scuola-di-polo{
+  background-image: url("../immagini/scuola-di-polo.jpg")
 }
 .chisono{
   width: 50%;
@@ -282,19 +290,18 @@ nav li:last-child {
   margin-top: 10px;
   height: 300px;
   border:1px solid black;
-  background-image: url("../immagini/chi_sono.jpg");
+  background-image: url("../immagini/chi_sono.jpg") no-repeat;
   background-size:cover;
   background-position: 1px
-  background-repeat: no-repeat;
 }
 #telefono{
   background-image: url("../immagini/telefono.jpg");
 }
 #email{
-  background-image: url("../immagini/gmail.png");
+  background-image: url("../immagini/gmail.jpg");
 }
 #instagram{
-  background-image: url("../immagini/instagram.png");
+  background-image: url("../immagini/instagram.jpg");
   background-position: 0px;
 }
 .banner-2{
@@ -438,7 +445,7 @@ nav li:last-child {
     width: 151px;
   }
   #comincia{
-    padding-top:10px;
+    padding-top:5px;
     height: 50px;
     font-size: 25px;
     margin-top:40px;
@@ -446,7 +453,7 @@ nav li:last-child {
   .articolo{
     height: 280px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border:1px solid black;
     position: relative;
     background-size:cover;
@@ -455,10 +462,10 @@ nav li:last-child {
   #riduci-margine{
     margin-top: 0px;
   }
-  .articolo-lungo{
+  .articolo-lungo-2x{
     height: 280px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border:1px solid black;
     display: inline-block;
     position: relative;
@@ -499,10 +506,9 @@ nav li:last-child {
   margin-top: 10px;
   height: 200px;
   border:1px solid black;
-  background-image: url("../immagini/chi_sono.jpg");
+  background-image: url("../immagini/chi_sono.jpg") no-repeat;
   background-size:cover;
-  background-position: 1px
-  background-repeat: no-repeat;
+  background-position: 1px;
 }
 
 }
@@ -510,6 +516,7 @@ nav li:last-child {
 
   .hamburger {
     padding: 15px;
+    margin-top: 30px;
     display: block;
     color: black;
   }
