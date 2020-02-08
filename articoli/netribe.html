@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio di Adam Taoufiq</title>
+  <link rel="stylesheet" href="../css/articoli.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="https://img.icons8.com/nolan/64/000000/laptop.png">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+  <a href="#" id="freccia"><img src="../immagini/arrow.png" ></a>
+  <div class="intro" id="netribe">
+    <div class="banner">
+      <a href="../index.html">Torna in Hompage</a>
+      <p>Netribe</p>
+      <p id="data">27/05/19 - 06/07/19</p>
+
+    </div>
+
+  </div>
+  <div class="articolo">
+
+    <div class="titolo">
+
+      <p>Obiettivo del progetto</p>
+
+    </div>
+    <div class="testo">
+
+      Presso Netribe ho svolto il mio periodo di alternanza scuola-lavoro organizzato dal nostro istituto per tutte le classi quarte.
+
+    </div>
+    <div class="titolo">
+
+      <p>Sviluppo del progetto</p>
+
+    </div>
+    <div class="testo">
+
+      <div class="testo-sviluppo">
+
+        La mia esperienza di alternanza scuola-lavoro l'ho svolta presso NetribeGroup un'azienda nata a Reggio emilia specializzata nello
+        sviluppo di soluzioni strategiche ed innovative nel settore informatico.
+        Durante il mio periodo di alternanza ho svolto due progetti il primo nelle prime due settimane ed il terzo nelle ultime due settimane.
+
+      </div>
+      <div class="testo-sviluppo">
+
+        <span>Nelle prime due settimane</span> ho lavorato allo sviluppo dell'interfaccia grafica del sito dell'azienda Yales che si occupa di 
+        produrre batterie per carrelli elevatori.
+        Il sito dell'azienda infatti era abbastanza vecchio e aveva bisogno di un'interfaccia grafica nuova,questo compito è stato assegnato a me insieme
+        ad un altro dipendente di Netribe che mi ha fatto anche da tutor durante il lavoro.
+        Per creare l'interfaccia grafica ho utilizzato Html,Css e Javascript tutti linguaggi che avevo imparato a scuola.
+      </div>
+      <div class="testo-sviluppo">
+
+        <span>Le utlime due settimane</span> ho lavorato sul CMS di Netribe sul quale tengono tutti i siti dei loro clienti.
+        La mia tutor Federica Sacchi mi ha assegnato alcuni compiti da svolgere sul CMS come l'aggiunta di alcune pagine di pagamento per il sito di un cliente
+        ed ho anche fatto alcune operazioni di query sul database di Netribe.
+        Per tutti questi compiti ho utlizzato linguaggi quali l'sql il php ed il jsp che fino ad allora non avevo mai utilizzato ma con il quale sono riuscito ad adattarmi.
+      </div>
+
+    </div>
+    <div class="titolo">
+
+      <p>Opinione</p>
+
+    </div>
+    <div class="testo">
+
+      Questa esperienza mi è stata molto utile perchè mi ha permesso di vedere com'è il mondo del lavoro ed inoltre mi ha dato la possibilità di mettere
+      alla prova alcune delle mie conoscenze in un contesto reale.
+      
+    </div>
+    <div class="titolo">
+
+      <p>Contenuti scaricabili</p>
+
+    </div>
+    <div class="contenuti-scaricabili">
+
+        <div class="pulsante">
+
+            <p>Clicca per scaricare il powerpoint dell'alternanza</p>
+            <a href="https://docs.google.com/presentation/d/1oMnILd-VBxmM_5LvxqPZbWEAyDJ6CNuXW9-EMhfRAm4/edit?usp=sharing" download>Clicca qui</a>
+
+        </div>
+
+    </div>
+
+</div>
+    <div class="footer">
+
+      <p>Creato da Adam Taoufiq 2019</p>
+
+    </div>
+  <script>
+    var intervallo = setInterval(cambia,5000);
+    var i = 2;
+    function cambia(){
+      document.getElementById("immagini").style.backgroundImage="url('../immagini/IMG_"+i+".jpg')";
+      if(i+1 == 8){
+        i=2;
+      }else{
+        i++;
+      }
+    }
+  </script>
+
+</body>
+
+</html>

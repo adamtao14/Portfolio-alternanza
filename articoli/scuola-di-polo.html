@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio di Adam Taoufiq</title>
+  <link rel="stylesheet" href="../css/articoli.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="https://img.icons8.com/nolan/64/000000/laptop.png">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+  <a href="#" id="freccia"><img src="../immagini/arrow.png" ></a>
+  <div class="intro" id="scuola-di-polo">
+    <div class="banner">
+      <a href="../index.html">Torna in Hompage</a>
+      <p>Scuola di polo</p>
+      <p id="data">09/01/18 - 11/01/18</p>
+
+    </div>
+
+  </div>
+  <div class="articolo">
+
+    <div class="titolo">
+
+      <p>Obiettivo del progetto</p>
+
+    </div>
+    <div class="testo">
+
+      Il team di Matrix Media un'azienda reggiana che si occupa di sviluppo web e marketing ci ha proposto di creare un sito web oppure un software a gruppi per un eventuale azienda,specificando i costi i materiali e il business plan che avremmo dovuto usare.
+
+    </div>
+    <div class="titolo">
+
+      <p>Sviluppo del progetto</p>
+
+    </div>
+    <div class="testo">
+
+      <div class="testo-sviluppo">
+
+        <span>Il primo giorno</span> il team di Matrix Media ci ha fatto una presentazione sulla Polo academy,un'accademia fondata da loro 
+        che permette ai neodiplomati di continuare la propria formazione in ambito informatico dentro ad un contesto lavorativo.
+        Alcuni studenti della Polo Academy hanno dato la loro testimonianza durante la presentazione.
+        Finita la presentazione il team ci ha divisi in gruppi per fare il nostro progetto. 
+
+      </div>
+      <div class="testo-sviluppo">
+
+        <span>Il secondo giorno</span> io ed il mio gruppo ci siamo messi a lavorare sulla pianificazione del nostro sito.Il nostro gruppo infatti 
+        doveva creare un sito per una presunta azienda di prodotti agricoli del territorio.
+        Abbiamo deciso il nome,scelto il dominio e l'hosting per il sito,eventuali plugin per la sicurezza ed il design del sito.
+      </div>
+      <div class="testo-sviluppo">
+
+        <span>Il terzo giorno</span> io ed il mio gruppo abbiamo creato la presentazione powerpoint del nostro sito elencando le varie decisioni
+        prese riguardanti la creazione del sito.
+      </div>
+
+    </div>
+    <div class="titolo">
+
+      <p>Opinione</p>
+
+    </div>
+    <div class="testo">
+
+      Questo progetto a mio parere è stato abbastanza inutile siccome non sento di aver imparato molto.Il team di Matrix Media si è limitato a spiegare 
+      concetti abbastanza superficiali per poi assegnarci un progetto poco utile.
+    </div>
+    <div class="titolo">
+
+      <p>Contenuti</p>
+
+    </div>
+    <div class="contenuti-scaricabili">
+
+        <div class="pulsante">
+
+            <p>Clicca per vedere il powerpoint del progetto</p>
+            <a href="https://docs.google.com/presentation/d/1O1Nhi4B4h8c9ZiqbNffIUS6Vt-L3I_7jgs4YlQLXeFo/edit?usp=sharing" download>Clicca qui</a>
+
+        </div>
+
+    </div>
+
+</div>
+    <div class="footer">
+
+      <p>Creato da Adam Taoufiq 2019</p>
+
+    </div>
+  <script>
+    var intervallo = setInterval(cambia,5000);
+    var i = 2;
+    function cambia(){
+      document.getElementById("immagini").style.backgroundImage="url('../immagini/IMG_"+i+".jpg')";
+      if(i+1 == 8){
+        i=2;
+      }else{
+        i++;
+      }
+    }
+  </script>
+
+</body>
+
+</html>
